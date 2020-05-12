@@ -24,7 +24,7 @@ var activity, accessibility, type, participants, price, link, key;
 
 //get an activity
 function getAdvice() {
-    var api = 'https://www.boredapi.com/api/activity/';
+    var api = "https://www.boredapi.com/api/activity/";
     
     fetch(api)
         .then(response => {
