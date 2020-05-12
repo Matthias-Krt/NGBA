@@ -1,0 +1,83 @@
+<html>
+
+    <head>
+        <title>Never get bored again</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="assets/js/main.js"></script>
+    </head>
+    
+    <body>
+        
+        <!-- Top Menu -->
+        <div id="content-menu">
+            <button id="btn-home" onclick="activityReset()"><i class="fa fa-home"></i></button>
+            <!--
+            <div id="dropdown-settings">
+                <button id="btn-settings" onclick="showSettings()"><i class="fa fa-cog"></i></button>
+                
+                <div id="dropdown-settings-content">
+                    <label class="container">One
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Two
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Three
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Four
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>    
+            </div>
+            -->
+            <!--
+            <button id="btn-add-activity" onclick="activityPost()"><i class="fa fa-plus"></i></button>
+            -->
+        </div>
+        
+        <!-- Wrapper -->
+        <div id="content">
+            <div id="content-wrapper">
+
+                <!-- Main -->
+                <div id="content-activity">
+                    <p id="txt-activity">Are you really bored?</p>
+
+                    <button id="btn-bored" onclick="getAdvice()">I'm bored</button>
+                    <button id="btn-interested" onclick="writeActivityDesc()">Tell me more</button>
+                </div>
+                
+                <div id="content-settings-wrapper">
+                    <div id="content-settings">
+                        <input type="checkbox" id="setting-type-education" class="setting">Education
+                        <input type="checkbox" id="setting-type-recreational" class="setting">Recreational
+                        <input type="checkbox" id="setting-type-social" class="setting">Social
+                        <input type="checkbox" id="setting-type-diy" class="setting">DIY
+                        <input type="checkbox" id="setting-type-charity" class="setting">Charity
+                        <input type="checkbox" id="setting-type-cooking" class="setting">Cooking
+                        <input type="checkbox" id="setting-type-relaxation" class="setting">Relaxation
+                        <input type="checkbox" id="setting-type-music" class="setting">Music
+                        <input type="checkbox" id="setting-type-busywork" class="setting">Busywork
+                        
+                        <div id="content-settings-btn">
+                            <button id="btn-settings-submit" onclick="saveSettings()">Save &amp; close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
