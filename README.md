@@ -1,5 +1,5 @@
 # NGBA
-Never get bored again! A website that will blow away your free boring time.
+Never get bored again! Eine Website gegen Langeweile
 
 ## API
-The Website is using the [Bored API](https://www.boredapi.com/)
+Die Website benutzt die [Bored API](https://www.boredapi.com/)
